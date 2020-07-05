@@ -1,0 +1,8 @@
+.price-list{
+  padding: 20px;
+  display: grid;
+  grid-row-gap: 20px;
+  background: #F2F2F2;
+  opacity: 1;
+  border-radius: 24px;
+}

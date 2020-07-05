@@ -1,0 +1,33 @@
+.price-list-item{
+  display: grid;
+  grid-template-columns: 40px auto max-content;
+  grid-gap: 16px;
+}
+.price-list-item-shop-icon{
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.price-list-item-shop{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+.price-list-item-price{
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #000000;
+}

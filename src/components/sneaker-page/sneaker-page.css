@@ -1,0 +1,26 @@
+.sneaker-page{
+  width: 100%;
+  padding: 76px 20px 20px;
+  display: grid;
+  grid-row-gap: 16px;
+}
+.sneaker-page-sneaker-image {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.sneaker-page-sneaker-name{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.sneaker-page-button-group{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 8px;
+}

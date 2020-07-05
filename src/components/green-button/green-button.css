@@ -1,0 +1,31 @@
+.wrapper-green-button{
+  width: 100%;
+  padding: 12px;
+  background: #088540;
+  border-radius: 100px;
+  justify-content: center;
+}
+.green-button{
+  width: max-content;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 24px max-content;
+  grid-column-gap: 7px;
+  align-items: center;
+}
+.green-button-icon{
+  background-image: url(../../images/add-to-schelf.svg);
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+.green-button-text{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
